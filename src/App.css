@@ -1,0 +1,84 @@
+body {
+    font: 42px "Roboto", sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.table {
+    max-width: 800px;
+    height: 800px;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: lightblue;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.startHeader {
+    color: blue;
+    text-shadow: #558ABB 2px 2px;
+}
+
+.formName {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nameInput {
+    max-width: 500px;
+    height: 80px;
+    margin-bottom: 150px;
+    padding: 10px;
+    font-size: 100%;
+    text-align: center;
+    border: 2px solid green;
+}
+
+.btn {
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+    color: white;
+    font-size: 100%;
+    letter-spacing: 1px;
+    background-color: #558ABB;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:active {
+    color: #558ABB;
+    background-color: white;
+    border: 2px solid #558ABB;
+}
+
+.card {
+    width: 170px;
+    border-radius: 7px;
+}
+
+.flexStart {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.flexRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.redText {
+    color: red;
+}
+.smaller {
+    font-size: 70%;
+}
