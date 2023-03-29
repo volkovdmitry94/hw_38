@@ -27,8 +27,7 @@ class GameBoard extends Component {
 
     nextCards = () => {
         const newDeck = this.state.deckData.slice();
-        newDeck.shift();
-        newDeck.shift();
+        newDeck.splice(0, 2);
         this.countRounds++;
 
         let newComputerScores = this.state.computerScores;
